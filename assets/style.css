@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Golos Text', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: #ff6900;
+}
+
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+nav{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    margin-inline: 27rem;
+}
