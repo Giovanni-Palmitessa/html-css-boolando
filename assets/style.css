@@ -21,7 +21,6 @@ header{
     right: 0;
     top: 0;
     z-index: 1;
-    
 }
 
 .container{
@@ -31,14 +30,16 @@ header{
 
 nav{
     height: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .logo{
     width: 100px;
-    margin-inline: 20rem;
+}
+
+.container.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .table{
