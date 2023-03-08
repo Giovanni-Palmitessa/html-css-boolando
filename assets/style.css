@@ -16,6 +16,11 @@ a{
 
 header{
     background-color: #ff6900;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
     
 }
 
@@ -51,7 +56,23 @@ nav{
 .model{
     height: 500px;
     padding-top: 3rem;
+    display: block;
 }
+
+.model-2{
+    display: none;
+    height: 500px;
+    padding-top: 3rem;
+}
+
+.card:hover .model{
+    display: none;
+}
+
+.card:hover .model-2{
+    display: block;
+}
+
 
 .discount{
     background-color: red;
