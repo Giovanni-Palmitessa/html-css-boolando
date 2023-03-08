@@ -42,6 +42,10 @@ nav{
     align-items: center;
 }
 
+.personal{
+    padding-left: 8px;
+}
+
 .table{
     display: flex;
     flex-wrap: wrap;
