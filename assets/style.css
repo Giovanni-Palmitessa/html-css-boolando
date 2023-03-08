@@ -130,3 +130,41 @@ nav{
     text-decoration: line-through;
     font-size: 12px;
 }
+
+footer{
+    background-color: black;
+    height: 4rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+.bool{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.ftr-link{
+    font-size: 11px;
+    padding-right: 10px;
+}
+
+.container.follow{
+    position: relative;
+}
+
+.find-us{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.social{
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
